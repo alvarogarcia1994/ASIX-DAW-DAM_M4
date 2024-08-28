@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computer price="$555">
+	<Hardware>
+		<screen resolution="1200x760">Philips</screen>
+		<Keyboard>HP</Keyboard>
+		<Motherboard>ASUS BF181</Motherboard>
+			<Integrated_components>
+				<Video_card size="6.7">ASUS</Video_card>
+				<WIFI_card>Approx</WIFI_card>
+				<Sound_card>MasterBlaster16</Sound_card>
+			</Integrated_components>
+			<Chipset_model>PIIX4</Chipset_model>
+			<RAM_slots number="8">DDR4</RAM_slots>
+	</Hardware>
+
+	<Software>
+		<Office_pack installed="Yes">Office 365</Office_pack>
+		<Browser>Google Chrome</Browser>
+		<Operating_System installed="Yes" free="No">
+			<Operating_System>Windows 10 Pro x64</Operating_System>
+			<Security_pack>Kaspersky</Security_pack>
+		</Operating_System>
+	</Software>
+</computer>
+		

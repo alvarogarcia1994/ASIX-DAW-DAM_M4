@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="laboratori" type="t_laboratori"/>
+	<xs:element name="nom" type="xs:string" />
+	<xs:element name="grups" type="t_grups"/>
+	<xs:element name="grup" type="t_grup" />
+	<xs:element name="descripcio" type="xs:string"/>
+
+	<xs:complexType name="t_laboratori">
+		<xs:sequence>
+			<xs:element ref="nom" />
+			<xs:element ref="grups"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="t_grups">
+		<xs:sequence>
+			<xs:element ref="grup" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="t_grup">
+		<xs:sequence>
+			<xs:element ref="nom"/>
+			<xs:element name="informe" type="t_informe" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="t_informe">
+		<xs:sequence>
+			<xs:element ref="nom"/>
+			<xs:element name="any" type="xs:integer" maxOccurs="unbounded"/>
+			<xs:element name="descripcio" type="xs:string"/>
+			<xs:element name="responsable" type="t_responsable" minOccurs="0"/>
+			<xs:element name="autors" type="t_autors" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="t_responsable">
+		<xs:sequence>
+			<xs:element ref="nom"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="t_autors">
+		<xs:sequence>
+			<xs:element ref="nom" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

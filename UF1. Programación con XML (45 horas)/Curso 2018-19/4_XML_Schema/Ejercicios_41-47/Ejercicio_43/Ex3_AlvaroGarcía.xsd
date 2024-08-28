@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="persona" type="t_persona"/>
+        <xs:element name="comentari" type="xs:string"/>
+        <xs:attribute name="naixement" type="xs:string"/>
+        <xs:element name="dades" type="d_info"/> 
+        <xs:complexType name="t_persona">
+                <xs:sequence>
+                        <xs:element ref="dades"/>        
+                        <xs:element ref="comentari"/>
+                </xs:sequence>
+                <xs:attribute ref="naixement" />
+        </xs:complexType>
+
+        <xs:complexType name="d_info">
+                <xs:sequence>
+                        <xs:element name="nom" type="xs:string"/>
+                        <xs:element name="cognoms" type="xs:string"/>
+                        <xs:element name="dni" type="xs:string"/>
+                </xs:sequence>
+                <xs:attribute name="codi" type="xs:string"/>
+        </xs:complexType>
+</xs:schema>

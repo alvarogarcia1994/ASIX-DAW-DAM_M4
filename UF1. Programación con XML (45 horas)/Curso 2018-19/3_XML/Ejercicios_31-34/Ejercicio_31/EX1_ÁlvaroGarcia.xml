@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERN>
+	<Noves_tecnologies>
+		<Responsable>Mike Sendall</Responsable>
+		<Informe>
+			<Titol>Information Management a proposal</Titol>
+			<Any>1989</Any>
+			<Autor>Tim Berners Lee</Autor>
+		</Informe>
+	</Noves_tecnologies>
+	<Fisica_de_particules>
+		<Informe>
+			<Titol>The higgs bosson plained</Titol>
+			<Any>2012</Any>
+			<Autor>Peter Higgs</Autor>
+			<Autor>François Englebert</Autor>
+		</Informe>
+	</Fisica_de_particules>
+	<Telecomunicacions/>
+	<Cosmologia>
+		<Informe>
+			<Titol>Violation CP</Titol>
+			<Any>1979</Any>
+			<Autor>James Cronin</Autor>
+			<Autor>Val Fitch</Autor>
+		</Informe>
+	</Cosmologia>
+</CERN>

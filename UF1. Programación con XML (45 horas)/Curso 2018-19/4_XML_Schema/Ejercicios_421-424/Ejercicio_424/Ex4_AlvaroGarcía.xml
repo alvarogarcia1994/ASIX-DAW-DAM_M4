@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<llibreria>
+  <llibre id="1adkor3" available="false">
+    <isbn>3483932849</isbn>
+    <titol lang="es">El viejo que leía novelas de amor</titol>
+    <autor id="dfof61834">
+      <nom>Luis Sepúlveda Calfucura</nom>
+      <naixement>1949-10-04</naixement>
+      <defuncio>2040-11-10</defuncio>
+    </autor>
+    <personatge id="cad5982395">
+      <nom>Antonio José Bolívar Proaño</nom>
+      <naixement>1918-04-10</naixement>
+      <qualificacio>7.91</qualificacio>
+    </personatge>
+  </llibre>
+  <llibre id="rjdg23uy" available="true">
+    <isbn>3127239429</isbn>      
+    <titol lang="ca">L'auca del senyor Esteve</titol>
+    <autor id="odasuq9w123">
+      <nom>Santiago Rusiñol Prats</nom>
+      <naixement>1861-02-25</naixement>
+      <defuncio>1931-06-13</defuncio>
+    </autor>
+    <personatge id="cat48284eqq">
+      <nom>Esteve Sambeat i Collbató</nom>        
+      <naixement>1884-05-19</naixement>
+      <qualificacio>8.76</qualificacio>
+    </personatge>
+  </llibre>
+</llibreria>

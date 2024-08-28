@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="llibre" type="t_llibre"/>
+	<xs:element name="titol" type="xs:string" />
+	<xs:element name="capitol" type="t_cap"/>
+	<xs:element name="editorial" type="xs:string"/>
+	<xs:element name="isbn" type="xs:string"/>
+	<xs:attribute name="id" type="xs:integer"/>
+	<xs:attribute name="class" type="xs:string"/>
+
+	<xs:complexType name="t_llibre">
+		<xs:sequence>
+			<xs:element ref="capitol"/>
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="t_cap">
+		<xs:sequence>
+			<xs:element name="tipus" type="xs:string"/>
+			<xs:element name="autor" type="xs:string"/>
+			<xs:element name="reflexions" type="t_ref"/>
+		</xs:sequence>
+		<xs:attribute ref="id" />
+		<xs:attribute ref="class" />
+	</xs:complexType>
+
+	<xs:complexType name="t_ref">
+		<xs:sequence>
+			<xs:element name="llei" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+
+</xs:schema>

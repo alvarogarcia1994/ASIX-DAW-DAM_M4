@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persona xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+  <detalls>
+    <nom>Joan Gomez</nom>
+    <dadescontacte>
+      <personaContacte>Joan Gomez</personaContacte>
+      <telfprincipal>93 439 24 12</telfprincipal>
+      <telfsecundari>952 143 342</telfsecundari>
+      <email>jgomez@gmail.com</email>
+    </dadescontacte>
+  </detalls>
+</persona>
+

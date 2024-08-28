@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptors>
+	<descriptor>
+		<nom>DTD</nom>
+		<link>http://mercurio.ugr.es/pedro/tutoriales/cursos/xml/dtd.htm</link>
+		<exemple>
+		<![CDATA[
+			<!ELEMENT etiqueta (nombre, calle, ciudad, pais, codigo)>
+			<!ELEMENT nombre (#PCDATA)>
+			<!ELEMENT calle (#PCDATA)>
+			<!ELEMENT ciudad (#PCDATA)>
+			<!ELEMENT pais (#PCDATA)>
+			<!ELEMENT codigo (#PCDATA)>
+			]>
+		]]>
+		</exemple>
+	</descriptor>
+	<descriptor>
+		<nom>XML Schema</nom>
+		<link>https://en.wikipedia.org/wiki/XML_schema</link>
+		<exemple>
+		<![CDATA[
+			<?xml version="1.0" encoding="ISO-8859-1"?>
+			<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+			</xsd:schema>
+		]]>
+		</exemple>
+	</descriptor>
+	<descriptor>
+		<nom>Relax NG</nom>
+		<link>http://relaxng.org/spec-20011203.html</link>
+		<exemple>
+		<![CDATA[
+			<?xml version="1.0"?>
+			<foo><pre1:bar1 xmlns:pre1="http://www.example.com/n1"/><pre2:bar2 xmlns:pre2="http://www.example.com/n2"/></foo>
+		]]>
+		</exemple>
+	</descriptor>
+	<descriptor>
+		<nom>Schematron</nom>
+		<link>https://es.wikipedia.org/wiki/Schematron</link>
+		<exemple>
+		<![CDATA[
+			<schema xmlns="http://purl.oclc.org/dsdl/schematron">
+			<pattern>
+			<title>Date rules</title>
+			<rule context="Contract">
+			<assert test="ContractDate &lt; current-date()">ContractDate should be in the past because future contracts are not allowed.</assert>
+			</rule>
+			</pattern>
+			</schema>
+		]]>
+		</exemple>
+	</descriptor>
+	<conclusions>Dels quatre descriptors, crec que el DTD es el mes senzill, perque el XML Schema es una mica mes complexe, a part de que Relax NG i Schematron son per dir-ho d'alguna forma "derivats" del XML Schema</conclusions>
+</descriptors>

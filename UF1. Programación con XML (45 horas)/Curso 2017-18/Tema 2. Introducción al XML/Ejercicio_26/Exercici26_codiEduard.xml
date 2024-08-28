@@ -1,0 +1,5 @@
+<codiEduard>
+if (edat &lt;= 0 &amp; edat &gt; 18) {
+        printf(&quot; És menor d&apos; edat\n &quot;);
+    }
+</codiEduard>

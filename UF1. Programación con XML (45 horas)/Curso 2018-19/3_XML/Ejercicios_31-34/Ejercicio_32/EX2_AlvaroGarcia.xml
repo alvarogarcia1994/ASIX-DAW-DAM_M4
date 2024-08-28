@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iesjoandaustria>
+	<cicles>
+		<ASIX>
+			<ASIX1/>
+			<ASIX2>
+				<aula>AC2</aula>
+				<alumnes>12</alumnes>
+			</ASIX2>
+		</ASIX>
+		<DAW>
+			<DAW1>
+				<modul>
+					<nom>BBDD</nom>
+						<hores>110</hores>
+				</modul>
+				
+				<modul>
+					<nom>llenguatges_marques_SGI</nom>
+						<hores>99</hores>
+				</modul>
+			</DAW1>
+			<DAW2>
+				<alumnes>21</alumnes>
+					<modul>
+						<nom codi="DAW2M5">entorns_prog</nom>
+					</modul>
+					
+					<modul>	
+						<nom codi="DAW2M7">programacio_web</nom>
+							<hores>35</hores>
+					
+					</modul>
+					
+					<modul>
+						<nom>Serveis d'Internet</nom>
+			
+					</modul>
+			</DAW2>
+		</DAW>
+		<DAM>
+			<DAM1>
+				<aula>23</aula>
+				<alumnes>28</alumnes>
+				<modul>
+					<nom codi="DAM1M4">llenguatges_marques codi</nom>
+						<hores>99</hores>
+				</modul>
+			</DAM1>
+		</DAM>
+	</cicles>
+</iesjoandaustria>		
+				
+				
+				

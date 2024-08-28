@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<os> 
+	<osName>
+		<macVersion>Mojave</macVersion>
+	</osName>
+	<comment>
+		<details>Instalación correcta</details>
+		<numberInstalled>384312</numberInstalled>
+	</comment>
+	<version>14</version>
+</os>

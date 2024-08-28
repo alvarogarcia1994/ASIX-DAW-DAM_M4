@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="os" type="operativeSystem"/>
+	<xsd:element name="details" type="xsd:string"/>
+	<xsd:element name="comment">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="details"/>
+			<xsd:element name="numberInstalled" type="xsd:integer"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:complexType name="operativeSystem">
+		<xsd:sequence>
+			<xsd:element name="osName" type="info"/>
+			<xsd:element ref="comment"/>
+			<xsd:element name="version" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="info">
+		<xsd:choice>
+			<xsd:element name="windowsVersion" type="xsd:string"/>
+			<xsd:element name="linuxVersion" type="xsd:string"/>
+			<xsd:element name="macVersion" type="xsd:string"/>
+		</xsd:choice>
+	</xsd:complexType>
+</xsd:schema>

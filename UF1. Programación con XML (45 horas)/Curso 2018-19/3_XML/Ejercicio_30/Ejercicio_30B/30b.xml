@@ -1,0 +1,10 @@
+<bookshelf>
+	<book id="1">
+		<title lang="en">Beautiful code</title>
+		<author>A.Oram</author>
+		<author>G.Wilson</author>
+		<year>2007</year>
+		<price lang="en">35.95</price>
+	</book>
+	<book id="2" />
+</bookshelf>	

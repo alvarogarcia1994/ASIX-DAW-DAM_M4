@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matricula xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shiporder.xsd">
+	<personal>
+		<dni>99223366M</dni>
+		<nom>Albert Lluch Valls</nom>
+		<titulacio>Enginyeria Informàtica</titulacio>
+		<curs_academic>1997/1998</curs_academic>
+		<domicilis>
+			<domicili tipus="familiar">
+				<nom>C/ Principal no1</nom>
+			</domicili>
+			<domicili tipus="habitual">
+				<nom>C/ Secundaria no2</nom>
+			</domicili>
+		</domicilis>
+	</personal>
+	<pagament>
+		<tip_mat>Matricula Ordinaria</tip_mat>
+	</pagament>
+</matricula>

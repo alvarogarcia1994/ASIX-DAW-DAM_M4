@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="matricula">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="personal" type="t_personal"/>
+				<xs:element name="pagament" type="t_pagament"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="t_personal">
+		<xs:all>
+			<xs:element name="dni" type="xs:string"/>
+			<xs:element name="nom" type="xs:string"/>
+			<xs:element name="titulacio" type="xs:string"/>
+			<xs:element name="curs_academic" type="xs:string"/>
+			<xs:element name="domicilis" type="t_domicilis"/>
+		</xs:all>
+	</xs:complexType>
+
+	<xs:complexType name="t_domicilis">
+		<xs:sequence>
+			<xs:element name="domicili" type="t_domicili" maxOccurs="2"/>
+		</xs:sequence>
+		<xs:attribute name="tipus" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="t_domicili">
+		<xs:sequence>
+			<xs:element name="nom" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="tipus" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="t_pagament">
+		<xs:all>
+			<xs:element name="tip_mat" type="xs:string"/>
+		</xs:all>
+	</xs:complexType>
+
+</xs:schema>

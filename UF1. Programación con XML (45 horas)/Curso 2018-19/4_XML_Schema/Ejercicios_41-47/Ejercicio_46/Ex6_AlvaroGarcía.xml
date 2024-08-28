@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<alumne dni="38423482">
+	<nom>Alvaro García Baena</nom>
+	<adress>
+		<carrer>Selva de Mar</carrer>
+		<nombre>211</nombre>
+		<ciutat>Barcelona</ciutat>
+		<província>Barcelona</província>
+	</adress>
+	<tel>905678910</tel>
+</alumne>

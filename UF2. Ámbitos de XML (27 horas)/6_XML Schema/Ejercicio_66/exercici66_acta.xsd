@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="acta">
+		<complexType>
+			<sequence>
+				<element name="sessio" type="integer" />
+				<element name="comunitat" type="string" />
+				<element name="data" type="date" />
+				<element name="inici" type="time" />
+				<element name="acabament" type="time" minOccurs="0" />
+				<element name="durada" type="duration" minOccurs="0" />
+				<element name="lloc" type="string" />
+				<element name="president" type="string" />
+				<element name="vicepresident" type="string" />
+				<element name="administrador" type="string" />
+				<element name="assistents" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="assistent" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="pis">
+											<complexType>
+												<choice minOccurs="1" maxOccurs="2">
+													<element name="planta" type="integer" minOccurs="1" maxOccurs="1"/>
+													<element name="porta" type="integer" minOccurs="1" maxOccurs="1"/>
+												</choice>
+											</complexType>
+										</element>
+										<element name="vei" type="string" minOccurs="0" maxOccurs="unbounded"/>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="noassistents" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="pis" minOccurs="0" maxOccurs="unbounded">
+								<complexType>
+									<choice minOccurs="0" maxOccurs="unbounded">
+										<element name="planta" type="integer" />
+										<element name="porta" type="integer" />
+									</choice>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="ordredeldia">
+					<complexType>
+						<sequence>
+							<element name="punt" minOccurs="0" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="nr" type="integer" maxOccurs="1" />
+										<element name="paragraf" type="string" maxOccurs="1" />
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="desenvolupament">
+					<complexType>
+						<sequence>
+							<element name="entrada" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="paragraf" type="string" maxOccurs="unbounded" />
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="acords" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="entrada" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="paragraf" type="string" maxOccurs="unbounded" />
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="temespendents" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="entrada" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="paragraf" type="string" maxOccurs="unbounded" />
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

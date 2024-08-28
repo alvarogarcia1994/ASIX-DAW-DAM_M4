@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<expressions alumne="agarcia@iesjoandaustria.org">
+	<expressio nr="1">/</expressio>
+	<expressio nr="2">//comment()</expressio>
+	<expressio nr="3">/cansons/canso</expressio>
+	<expressio nr="4">/cansons/canso[1]</expressio>
+	<expressio nr="5">/cansons/canso[2]</expressio>
+	<expressio nr="6">/cansons/canso[last()]</expressio>
+	<expressio nr="7">/cansons/canso[last()-1]</expressio>
+	<expressio nr="8">/cansons/canso[position() &gt; 0 and position() &lt; 5]</expressio>
+	<expressio nr="9">//canso[position() &gt; 1313]</expressio>
+	<expressio nr="10">count(//canso)</expressio>
+	<expressio nr="11">/cansons//canso[@single="si"]</expressio>
+	<expressio nr="12">//canso[genere="Metal"]</expressio>
+	<expressio nr="13">/cansons/canso[@single="si"][@tp="si"]</expressio>
+	<expressio nr="14">/cansons/canso[not(@single)] | //canso[@single="no"]</expressio>
+	<!--<expressio nr="15">//canso[@single=false()] | //canso[@tp=false()]</expressio>-->
+	<!--<expressio nr="16">//canso[@single="si" or @tp="no"]</expressio>-->
+	<expressio nr="17">/cansons/canso[1]/@*</expressio>
+	<expressio nr="18">/cansons/canso[1]//any</expressio>
+	<expressio nr="19">/cansons/canso[1]//titol/text()</expressio>
+	<!--<expressio nr="20">concat(/cansons/canso[1]//titol/text()) "(" concat(/canso[1]//artista/text()) ")"</expressio>-->
+	<expressio nr="21">//data[dia="20"]/parent::node()//data/mes</expressio>
+	<!--<expressio nr="22">//canso/titol[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="23">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="24">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="25">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="26">//titol, "She"</expressio>-->
+	<!--<expressio nr="27">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="28">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="29">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="30">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="31">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="32">//canso[artista="Metallica"]</expressio>-->
+	<!--<expressio nr="33">//canso[artista="Metallica"]</expressio>-->
+	<expressio nr="34">//canso[@single='si' and @tp='si'][genere = 'Rock'][extres='Core'][stock &lt; 50 or stock &gt; 225][contains(artista, 'Day')]/titol/text()</expressio>
+</expressions>

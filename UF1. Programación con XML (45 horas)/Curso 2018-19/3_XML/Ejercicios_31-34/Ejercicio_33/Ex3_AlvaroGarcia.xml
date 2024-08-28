@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clase>
+	<nom>DAW1</nom>
+	<alumne1>
+		<nom>Alvaro</nom>
+		<cognoms>Garcia Baena</cognoms>
+		<edat>24</edat>
+		<correu_electronic>agarcia@iesjoandaustria.org</correu_electronic>
+		<telefon>691287910</telefon>
+		<ciutat>Barcelona</ciutat>
+	</alumne1>
+	<alumne2>
+		<nom>Eric</nom>
+		<cognoms>Orbea Sotil</cognoms>
+		<edat>22</edat>
+		<correu_electronic>cf17eric.orbea@iesjoandustria.org</correu_electronic>
+		<telefon>619389181</telefon>
+		<ciutat>Barcelona</ciutat>
+	</alumne2>
+</clase>
+

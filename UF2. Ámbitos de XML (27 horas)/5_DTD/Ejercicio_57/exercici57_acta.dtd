@@ -1,0 +1,23 @@
+<!ELEMENT acta (sessio, comunitat, data, inici, (acabament | durada), lloc, president, vicepresident, administrador, assistents, noassistents, ordredeldia, desenvolupament, acords, temespendents?)>
+<!ELEMENT assistents (assistent+)>
+<!ELEMENT assistent (pis+, vei+)>
+<!ELEMENT noassistents (pis*)>
+<!ELEMENT ordredeldia (punt+)>
+<!ELEMENT desenvolupament (entrada+)>
+<!ELEMENT entrada (paragraf+)>
+<!ELEMENT acords (entrada+)>
+<!ELEMENT temespendents (entrada*)>
+<!ELEMENT sessio (#PCDATA)>
+<!ELEMENT comunitat (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT inici (#PCDATA)>
+<!ELEMENT acabament (#PCDATA)>
+<!ELEMENT durada (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT president (#PCDATA)>
+<!ELEMENT vicepresident (#PCDATA)>
+<!ELEMENT administrador (#PCDATA)>
+<!ELEMENT pis (#PCDATA)>
+<!ELEMENT vei (#PCDATA)>
+<!ELEMENT punt (#PCDATA)>
+<!ELEMENT paragraf (#PCDATA)>

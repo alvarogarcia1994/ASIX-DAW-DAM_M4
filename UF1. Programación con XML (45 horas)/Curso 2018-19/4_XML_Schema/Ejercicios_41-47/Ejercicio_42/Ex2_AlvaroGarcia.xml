@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persona naixement="1999-10-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shiporder.xsd">
+
+	<dades codi="p1">
+		<nom>Pep</nom>
+		<cognoms>Blanes</cognoms>
+		<dni>25390952</dni>
+	</dades>
+	<comentari>bon paio...</comentari>
+</persona>

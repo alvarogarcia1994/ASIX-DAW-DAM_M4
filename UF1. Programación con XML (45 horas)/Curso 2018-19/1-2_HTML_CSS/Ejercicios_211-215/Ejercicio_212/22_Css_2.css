@@ -1,0 +1,57 @@
+/* Todo el texto del documento en FreeSerif */
+* { font-family: "FreeSerif"; 
+    font-size: 20px; 
+} 
+
+/* Título del documento en azul/verde */
+h1#titol { color: #19E1CF;
+	   font-size: 40px;
+	 }
+
+/* Subtítulo del documento en azul */
+h2#subtitol { color: blue;
+	      font-size: 30px;
+	    }
+
+/* Strong del primer párrafo en rojo */
+p>strong { color: red; }
+
+/* Contenido de la clase destacat de la etiqueta span en naranja */
+span.destacat{ color: orange; }
+
+/* Los enlaces en rojo excepto elemento em */
+p>a { color: red; }
+
+/* Elemento em del enlace en azul */
+p>a[href|="#"]>em { color: blue; }
+
+/* Span de clase especial en lila */
+span.especial { color: purple; }
+
+/* Bordes de la tabla en negro */
+table, tr, th, td { border: 1px solid black; 
+		    border-collapse: collapse;
+		}
+
+/* Título de la tabla en azul */
+table>caption { color: blue; }
+
+/* Títulos de ambas columnas en naranja  */
+th.especial { color: orange; }
+
+/* Los elementos tfoot y el título fila 2 en rojo */
+tfoot>tr>th { color: red; }
+tbody>tr>th { color: red; }
+
+/* El texto de las columnas de la tabla en verde excepto el elemento strong*/
+tbody>tr>td { color: green; }
+tbody>tr>td>em { color: green; }
+
+/* Elemento strong de la tabla en naranja */
+tbody>tr>td>strong { color: orange; }
+
+/* Párrafo adicional con color verde caqui, span especial en magenta y elemento a en verde */
+div#adicional>p { color: #A7BD44; }
+div#adicional>p>span { color: #A7BD44; }
+div#adicional>p>span#especial { color: #EA03A4; }
+div#adicional>p>a { color: green; }

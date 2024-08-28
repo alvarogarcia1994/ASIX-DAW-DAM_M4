@@ -1,0 +1,5 @@
+<exercici títol="Avantatges dels CSS" email="agarcia@iesjoandaustria.org">
+    <avantatge nr="1">Amb una fulla d'estils podem modificar la presentació de cada element sense modificar el codi HTML, estalviant temps i esforç.</avantatge>
+    <avantatge nr="2">Aquest llenguatge ofereix una amplia gama d'eines de composició més pontents que HTML.</avantatge>
+    <avantatge nr="3">Es poden especificar Fulls d'estils per a diversos navegadors.</avantatge>
+</exercici>

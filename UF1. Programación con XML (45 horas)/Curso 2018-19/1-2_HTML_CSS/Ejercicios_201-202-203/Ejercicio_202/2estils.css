@@ -1,0 +1,22 @@
+/* La letra de todo el documento será FreeMono */
+* { font-family: "FreeMono"; }
+
+/*Agrupamos los encabezados 1 y 2, les doy por estilo de letra cursiva y por color de letra le asigno el azul */
+h1, h2 { 
+	 font-style: italic;
+       	 color: blue;
+       }
+
+/* El hijo de la lista ordenada, tendrá un tamaño de 30 px la letra y el color será el rojo */
+ol>li { 
+	color: red;
+	font-size: 30px;
+      }
+
+/* Lo mismo que el anterior pero con la lista desordenada, una medida de 40px y el color verde */
+ul>li { 
+	color: green;
+	font-size: 40px;
+      }
+
+

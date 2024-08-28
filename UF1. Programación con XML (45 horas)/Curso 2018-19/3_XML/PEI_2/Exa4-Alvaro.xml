@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+	<nom>DAMevelopers SL</nom>
+
+	<sucursal>
+		<sucursal_1>
+			<localitzacio>Barcelona</localitzacio>
+		</sucursal_1>
+	</sucursal>
+
+	<sucursal>
+		<sucursal_2>
+			<localitzacio>Girona</localitzacio>
+		</sucursal_2>
+	</sucursal>
+
+	<departament nom="Gestió">
+		<comandes>
+			<comanda codi="1">
+				<nom_sucursal>Astrofesa</nom_sucursal>
+				<nom_client>Fausto Fernández Jiménez</nom_client>
+				<data>29 d'Abril de 2015</data>
+				<observacions>Todo perfecto</observacions>
+			</comanda>
+		</comandes>
+	</departament>
+	<departament nom="Producció">
+		<comandes>
+			<comanda codi="2">
+				<nom_sucursal>BCCN</nom_sucursal>
+				<nom_client>Josefina Pérez Montalvo</nom_client>
+				<data>18 de Juny de 2018</data>
+				<observacions>Todo OK</observacions>
+			</comanda>
+		</comandes>
+	</departament>
+	
+	<equip id="1">
+		<persona>
+			<nom>Rosa</nom>
+			<cognoms>Folch Oliver</cognoms>
+			<DNI-NIE>34092448-J</DNI-NIE>
+			<ciutat-nac>Mallorca</ciutat-nac>
+			<telefon>678999999</telefon>
+		</persona>
+		<persona>
+			<nom>Alexandre</nom>
+			<cognoms>Nil Busto</cognoms>
+			<DNI-NIE>89122884-K</DNI-NIE>
+			<ciutat-nac>El Vendrell</ciutat-nac>
+			<telefon>654999999</telefon>
+		</persona>
+	</equip>
+
+	<equip id="2">
+		<persona>
+			<nom>Pep</nom>
+			<cognoms>Sala Bellavista</cognoms>
+			<DNI-NIE>23892419-M</DNI-NIE>
+			<ciutat-nac>Vic</ciutat-nac>
+			<telefon>600900900</telefon>
+		</persona>
+		<persona>
+			<nom>Geraldine</nom>
+			<cognoms>Quintana Cabrera</cognoms>
+			<DNI-NIE>89664213-P</DNI-NIE>
+			<telefon>678800800</telefon>
+		</persona>
+	</equip>
+</empresa>
+
+

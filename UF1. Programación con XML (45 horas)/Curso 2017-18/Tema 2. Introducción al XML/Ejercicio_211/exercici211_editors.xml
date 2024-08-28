@@ -1,0 +1,47 @@
+<editors_xml>
+  <editor nr="1">
+    <nom>XML Copy Editor</nom>
+    <enllaç>http://www.mclibre.org/consultar/xml/otros/xmlcopyeditor.html</enllaç>
+    <característiques>
+      <ressaltat-sintàctic disponible="«sí»" />
+      <tancament-de-etiquetes disponible="«sí»" />
+      <indentació-automàtica disponible="«no»" />
+      <numeració-de-línies disponible="«sí»" />
+      <validació-contínua disponible="«sí»" />
+      <representació-jeràrquica disponible="«no»" />
+      <representació-gràfica disponible="«sí»" />
+    </característiques>
+    <plataformes>
+      <GNULinux disponible="«no»" />
+      <macOS disponible="«no" />
+      <MSWindows disponible="«sí»" />
+    </plataformes>
+    <llicencia>
+      GPL 2
+    </llicencia>
+  </editor>
+  <editor nr="2"></editor>
+  <nom>Microsoft XML Notepad</nom>
+    <enllaç>https://inakidominguez.files.wordpress.com/2013/05/comparativa_editores_xml.pdf</enllaç>
+    <característiques>
+      <ressaltat-sintàctic disponible="«sí»" />
+      <tancament-de-etiquetes disponible="«sí»" />
+      <indentació-automàtica disponible="«no»" />
+      <numeració-de-línies disponible="«sí»" />
+      <validació-contínua disponible="«sí»" />
+      <representació-jeràrquica disponible="«no»" />
+      <representació-gràfica disponible="«sí»" />
+    </característiques>
+    <plataformes>
+      <GNULinux disponible="«no»" />
+      <macOS disponible="«no»" />
+      <MSWindows disponible="«sí»" />
+    </plataformes>
+    <llicencia>
+      Microsoft Public License
+    </llicencia>
+  <valoració-personal>
+	  Trobo els dos editors igual d'adequats, perque ambdós editors tenen característiques molt semblants.
+  </valoració-personal>
+</editors_xml>
+

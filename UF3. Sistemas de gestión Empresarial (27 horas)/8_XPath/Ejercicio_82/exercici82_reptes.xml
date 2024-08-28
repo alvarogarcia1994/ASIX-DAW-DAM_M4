@@ -1,0 +1,47 @@
+<reptes alumne="agarcia@iesjoandaustria.org">
+  <repte nr="1">
+    <enunciat>Cançons que tinguin 241 unitats en stock</enunciat>
+    <pista>N'hi han 6 cançons i la ultima es King for a Day</pista>
+    <solucio>count(//canso[stock="241"])</solucio>
+    <sortida><![CDATA[
+			6
+	]]>
+    </sortida>
+  </repte>
+  <repte nr="2">
+	  <enunciat>Cançons de 1994</enunciat>
+	  <pista>han de sortir 42 cançons</pista>
+	  <solucio>count(//canso[@any="1994"])</solucio>
+	  <sortida><![CDATA[
+				42
+	  ]]>
+	  </sortida>
+  </repte>
+  <repte nr="3">
+	<enunciat>Accedir als nodes parells que siguin fills de canso</enunciat>
+    <pista>surten 659 cançons</pista>
+    <solucio>count(//canso[position() mod 2 = 0])</solucio>
+    <sortida><![CDATA[
+				659
+	]]>
+	</sortida>
+  </repte>
+  <repte nr="4">
+    <enunciat>Cançons que tinguin per genere Emo</enunciat>
+    <pista>Han de sortir 22 cançons</pista>
+    <solucio>count(//canso[genere="Emo"])</solucio>
+    <sortida><![CDATA[
+			22
+	]]>
+	</sortida>
+  </repte>
+  <repte nr="5">
+    <enunciat>Cançons que tinguin per valor desconegut per a tot el public</enunciat>
+    <pista>Han de apareixer nomes 6 cançons</pista>
+    <solucio>count(//canso[@tp="desconegut"])</solucio>
+    <sortida><![CDATA[
+			6
+	]]>
+	</sortida>
+  </repte>
+</reptes>

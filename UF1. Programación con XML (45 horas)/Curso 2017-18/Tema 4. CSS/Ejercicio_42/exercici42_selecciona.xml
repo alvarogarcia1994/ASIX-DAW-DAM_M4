@@ -1,0 +1,34 @@
+<exercici títol="A quí selecciona" email="agarcia@iesjoandaustria.org">
+    <selector nr="1">
+        <selecciona>
+            «Aquí el text amb la teva resposta»
+        </selecciona>
+        <aspecte>
+            «Aquí el text amb la teva resposta»
+        </aspecte>
+    </selector>
+    <selector nr="2">
+		<selecciona>
+			    «Aquí el text amb la teva resposta»
+        </selecciona>
+        <aspecte>
+            «Aquí el text amb la teva resposta»
+        </aspecte>
+	</selector>
+	<selector nr="3">
+		<selecciona>
+			    «Aquí el text amb la teva resposta»
+        </selecciona>
+        <aspecte>
+            «Aquí el text amb la teva resposta»
+        </aspecte>
+	</selector>
+	<selector nr="4">
+		<selecciona>
+			    «Aquí el text amb la teva resposta»
+        </selecciona>
+        <aspecte>
+            «Aquí el text amb la teva resposta»
+        </aspecte>
+	</selector>
+</exercici>

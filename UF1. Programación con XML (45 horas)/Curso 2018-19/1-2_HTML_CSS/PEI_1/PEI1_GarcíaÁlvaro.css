@@ -1,0 +1,30 @@
+* { color: pink;}
+
+body { background-color: #00BFFF; 
+       border-color: white; 
+       margin: 50px; }
+
+body>header { text-align: center; }
+
+
+.section1 { background-color: #00BFFF;
+   	    text-align: left;
+	    float: left;
+	    width: 70%;  }
+
+.section2 { background-color: #00BFFF;
+            text-align: left;
+            float: left;
+            width: 70%;  }
+
+body>article { background-color: #FF8000;}
+
+body>nav>button { background-color: #FF8000;}
+
+body>aside { background-color: #FF8000; 
+	     float: left;
+             margin-left: 100%;
+     	     width: 30%;
+    	     top: 50px; }
+
+

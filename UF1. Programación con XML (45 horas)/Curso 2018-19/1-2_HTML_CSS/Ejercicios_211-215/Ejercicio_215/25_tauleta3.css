@@ -1,0 +1,13 @@
+* { font-family: sans-serif; 
+    color: yellow; }
+
+h1 { color: red;}
+
+img { width: 250px; 
+      height: 150px; }
+
+table { border-width: 35px;
+	border-style: solid;
+	border-color: blue; }
+
+tr>td { background-color: green; } 

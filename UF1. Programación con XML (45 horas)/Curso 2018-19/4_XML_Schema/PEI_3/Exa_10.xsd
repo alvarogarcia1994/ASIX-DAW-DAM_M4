@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="dades_contacte">
+        <xs:all>
+		<xs:element name="personaContacte" type="xs:string"/>
+            <xs:element name="telfprincipal" type="xs:integer"/>
+            <xs:element name="telfsecundari" type="xs:integer"/>
+            <xs:element name="email" type="xs:string"/>
+        </xs:all>
+    </xs:complexType>
+    
+    <xs:complexType name="fitxa_alumne">
+        <xs:sequence>
+            <xs:element ref="nom"/>
+            <xs:element name="dadescontacte" type="dades_contacte"/>
+		<xs:element name="curs" type="xs:string"/>
+		<xs:element name="nivell" type="xs:integer"/>
+            <xs:element name="tutor" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="curriculum">
+        <xs:sequence>
+            <xs:element ref="nom"/>
+            <xs:element name="dadescontacte" type="dades_contacte"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="detalls_persona">
+        <xs:sequence>
+            <xs:element ref="nom"/>
+            <xs:element name="dadescontacte" type="dades_contacte"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tPer">
+        <xs:choice>
+            <xs:element name="detalls" type="detalls_persona"/>
+            <xs:element name="cv" type="curriculum"/>
+            <xs:element name="fitxa" type="fitxa_alumne"/>
+        </xs:choice>
+        <xs:attribute name="id" type="xs:integer" use="required"/>
+    </xs:complexType>
+    
+    <xs:element name="persona" type="tPer"/>
+    <xs:element name="nom" type="xs:string"/>
+    
+    <xs:element name="agenda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="persona" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>        
+    </xs:element>
+</xs:schema>

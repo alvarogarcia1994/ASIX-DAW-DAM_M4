@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<llibre>
+  <titol>Humor intel·ligent</titol>
+  <capitol id="1" class="person">
+    <tipus> Lleis de Murphy </tipus>
+    <autor>Murphy</autor>
+    <reflexions>
+      <llei id="1.1"> Si alguna cosa pot fallar, fallarà.</llei>
+      <llei id="1.2"> Si alguna cosa no pot fallar, ho farà malgrat tot.</llei>
+      <llei id="1.3"> Si alguna cosa sembla que va bé, és obvi que s'ha passat 	  alguna cosa per alt.</llei>
+    </reflexions>
+  </capitol>
+  <capitol id="2" class="person">
+    <tipus> Teoremes de Ginsgberg </tipus>
+    <autor>Ginsgberg</autor>
+    <reflexions>
+      <llei id="2.1"> No pots guanyar.</llei>
+      <llei id="2.2"> No pots desempatar.</llei>
+      <llei id="2.3"> I tampoc pots abandonar el joc.</llei>
+    </reflexions>
+  </capitol>
+  <capitol id="3" class="person">
+    <tipus> Frases de Confuci </tipus>
+    <autor>Confici</autor>
+    <reflexions>
+      <llei id="3.1"> Escolte i oblide. Veig i recorde. Faig i aprenc.</llei>
+      <llei id="3.2"> Fes tot amb moderació, fins i tot moderar-te.</llei>
+      <llei id="3.3"> Siguen el canvi que vols veure al món.</llei>
+    </reflexions>
+  </capitol>
+  <editorial>RBA editors S.A.</editorial>
+  <isbn>29034930</isbn>
+</llibre>
